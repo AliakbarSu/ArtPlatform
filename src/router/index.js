@@ -64,6 +64,11 @@ const routes = [
     name: "Eamil Verification Confirmation",
     component: () =>
       import("../views/email-confirmation/TheEmailConfirmationPage.vue")
+  },
+  {
+    path: "/pricing",
+    name: "Pricing",
+    component: () => import("../views/pricing/ThePricingPage.vue")
   }
 ];
 
