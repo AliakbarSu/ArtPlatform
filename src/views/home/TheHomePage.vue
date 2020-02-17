@@ -15,13 +15,21 @@
         </router-link>
       </div>
     </Hero>
+    <Trendings :trendings="trendings" />
   </div>
 </template>
 <script>
 import Hero from "./components/hero/hero.vue";
+import Trendings from "./components/trendings/trendings";
 export default {
   components: {
-    Hero
+    Hero,
+    Trendings
+  },
+  computed: {
+    trendings() {
+      return this.$store.state.trendings;
+    }
   }
 };
 </script>
