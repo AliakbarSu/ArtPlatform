@@ -4,7 +4,9 @@
     v-click-outside="closeDropdown"
     @mouseleave="closeDropdown"
   >
-    <h2 class="o-courses__item" @click="toggleItem" @mouseover="openDropdown">About Us</h2>
+    <h2 class="o-courses__item" @click="toggleItem" @mouseover="openDropdown">
+      About Us
+    </h2>
     <AppTransitionExpand>
       <Dropdown class="c-courses__dropdown" v-if="isItemOpen" />
     </AppTransitionExpand>

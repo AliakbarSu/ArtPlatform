@@ -1,11 +1,6 @@
 <template>
   <div class="o-courses">
-    <router-link
-      to="/login"
-      class="o-courses__item"
-      @click="toggleItem"
-      tag="h2"
-    >
+    <router-link to="/login" class="o-courses__item" tag="h2">
       Sign In
     </router-link>
   </div>
@@ -32,10 +27,10 @@ export default {
   text-align: left;
   margin: 0;
   @include navItemTheme;
-  background-color: #71EC8C;
+  background-color: #71ec8c;
   color: #ffffff;
   @include for-desktop-up {
-    background-color: #71EC8C;
+    background-color: #71ec8c;
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 3px;
@@ -44,7 +39,5 @@ export default {
     transition: 0.3s;
     background: rgb(92, 241, 124);
   }
-}
-.c-courses__dropdown {
 }
 </style>

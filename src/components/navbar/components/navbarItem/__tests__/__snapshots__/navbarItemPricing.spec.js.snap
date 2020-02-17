@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`navbarItemPricing.vue should display 'Pricing' 1`] = `
+<div class="o-courses">
+  <router-link-stub to="/pricing" tag="h2" event="click" class="o-courses__item">
+    Pricing
+  </router-link-stub>
+</div>
+`;

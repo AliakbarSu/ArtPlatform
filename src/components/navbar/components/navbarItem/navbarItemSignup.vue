@@ -1,11 +1,6 @@
 <template>
   <div class="o-courses">
-    <router-link
-      to="/sign-up"
-      class="o-courses__item"
-      @click="toggleItem"
-      tag="h2"
-    >
+    <router-link to="/sign-up" class="o-courses__item" tag="h2">
       Create Account
     </router-link>
   </div>
@@ -32,7 +27,5 @@ export default {
   text-align: left;
   margin: 0;
   @include navItemTheme;
-}
-.c-courses__dropdown {
 }
 </style>

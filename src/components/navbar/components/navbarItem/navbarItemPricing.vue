@@ -1,11 +1,6 @@
 <template>
   <div class="o-courses">
-    <router-link
-      to="/pricing"
-      class="o-courses__item"
-      @click="toggleItem"
-      tag="h2"
-    >
+    <router-link to="/pricing" class="o-courses__item" tag="h2">
       Pricing
     </router-link>
   </div>
@@ -13,9 +8,7 @@
 <script>
 export default {
   data() {
-    return {
-      isItemOpen: false
-    };
+    return {};
   },
   components: {},
   methods: {
@@ -32,7 +25,5 @@ export default {
   text-align: left;
   margin: 0;
   @include navItemTheme;
-}
-.c-courses__dropdown {
 }
 </style>

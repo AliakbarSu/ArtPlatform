@@ -4,7 +4,9 @@
     v-click-outside="closeDropdown"
     @mouseleave="closeDropdown"
   >
-    <h2 class="o-courses__item" @click="toggleItem" @mouseover="openDropdown">Courses</h2>
+    <h2 class="o-courses__item" @click="toggleItem" @mouseover="openDropdown">
+      Courses
+    </h2>
     <AppTransitionExpand>
       <Dropdown
         :courses="courses"
@@ -45,7 +47,5 @@ export default {
   text-align: left;
   margin: 0;
   @include navItemTheme;
-}
-.c-courses__dropdown {
 }
 </style>

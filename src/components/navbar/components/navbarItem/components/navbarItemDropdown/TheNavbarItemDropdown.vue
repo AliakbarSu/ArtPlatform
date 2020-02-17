@@ -18,8 +18,8 @@
             <img class="c-item__thumbnail" :src="course.thumbnail" />
           </div>
           <div class="c-item__details">
-            <h2 class="c-item__title">{{course.title}}</h2>
-            <p class="c-item__description">{{course.description}}</p>
+            <h2 class="c-item__title">{{ course.title }}</h2>
+            <p class="c-item__description">{{ course.description }}</p>
           </div>
         </div>
       </router-link>

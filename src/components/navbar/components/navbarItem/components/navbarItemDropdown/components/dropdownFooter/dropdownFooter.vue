@@ -21,7 +21,7 @@ export default {
 .c-footer__button {
   @include basic-btn;
   width: 84%;
-  background: #4A5CFC;
+  background: #4a5cfc;
   padding: 12px;
   color: white;
   border-radius: 5px;

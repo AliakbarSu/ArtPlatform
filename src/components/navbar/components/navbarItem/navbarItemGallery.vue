@@ -4,7 +4,9 @@
     v-click-outside="closeDropdown"
     @mouseleave="closeDropdown"
   >
-    <h2 class="o-gallery__item" @click="toggleItem" @mouseover="openDropdown">Art Gallery</h2>
+    <h2 class="o-gallery__item" @click="toggleItem" @mouseover="openDropdown">
+      Art Gallery
+    </h2>
     <AppTransitionExpand>
       <Dropdown
         :gallery="gallery"
@@ -46,8 +48,5 @@ export default {
   margin: 0;
   @include navItemTheme;
   box-sizing: border-box;
-}
-
-.c-gallery__dropdown {
 }
 </style>
