@@ -93,6 +93,7 @@ $navHeight: 70px;
   background: white;
   @include for-desktop-up {
     position: absolute;
+    z-index: 10;
     left: 0;
     right: 0;
     top: 0;
